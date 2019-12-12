@@ -13,7 +13,7 @@ Please use there urls to test the API.
 
 Using without JWT:
 
-ENDPOINT : 
+ENDPOINT : http://68.183.144.13:5000/formRecognizer
 
 BODY PARAMETERS
 Name: imageUrl
@@ -35,7 +35,7 @@ Using with JWT:
 1).First, you have to comment out the commented code in analyzieReceipt.js file.
 2).First is to authenticate and generate token
 
-    ENDPOINT: 
+    ENDPOINT: http://68.183.144.13:5000/signIn/formRecognizer
 
     BODY PARAMETERS
     Name: username, Description : username of the user, Value: "akhil" (hardcoded for demo purpose)
@@ -52,7 +52,7 @@ Using with JWT:
 
 3). Second is to verify the user and use the form recognizer
 
-    ENDPOINT: 
+    ENDPOINT: http://68.183.144.13:5000/user/formRecognizer
 
     BODY PARAMETERS
     Name: imageUrl,Description: url of the image that needs to be analyzed through form recognizer.
